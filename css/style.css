@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------------------------------------------------------
+[Table of contents]
+1. Custom styles
+2. Text styles
+3. Button styles
+4. Background styles
+5. Form styles
+-------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/*============== custom editing ================*/
+body {
+    overflow-x: hidden;
+    font-family: "Roboto",Arail,sans-serif;
+	color:#111;
+	text-align:center;
+	background-color: #fff;
+}
+
+/*====================text styles of site ===================*/
+a,a:hover,a:focus,a:active,a.active {
+    outline: 0;
+}
+a {
+    color: #3498db;
+}
+a:hover,a:focus,a:active,a.active {
+    color: #246a99;
+}
+h1,.h1 {
+	font-weight:400;
+	font-size:40px;
+}
+
+h3,.h3 {
+	font-weight:300;
+	font-size:34px;
+}
+h4,.h4  {
+	font-weight:400;
+	font-size:24px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+	font-weight:400;
+}
+.text-primary,a.text-primary
+{
+	color:#3498db;	
+}
+.text-info,a.text-info
+{
+   color:#ffff00;
+}
+.text-danger,a.text-danger
+{
+	color:#ff0000;	
+}
+.text-success,a.text-success
+{
+    color: #71d149;
+}
+/*======================button and badges styles of site ======================*/
+.btn {
+	transition:all 0.3s ease-in-out 0.0s;
+	border-radius:9px;
+	font-weight:300;
+	font-size:16px;
+	position:relative;
+	padding:4px 35px;
+	box-shadow:2px 2px 3px rgba(0,0,0,.35);
+    color: #fff;
+}
+
+.btn-primary {
+    border-color: #3498db;
+    background-color: #3498db;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color:#246a99;
+    background-color: #246a99;
+}
+.btn-info {
+    border-color:#ffff00;
+    background-color: #ffff00;
+	color:#222;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+    border-color:#dede00;
+    background-color: #dede00;
+	color:#222;
+}
+
+.btn-black {
+    border-color: #11222d;
+    background-color: #11222d;
+	color:#fff;
+}
+
+.btn-black:hover,
+.btn-black:focus,
+.btn-black:active,
+.btn-black.active,
+.open .dropdown-toggle.btn-black {
+    border-color:#2d4d62;
+    background-color: #2d4d62;
+	color:#fff;
+}
+
+/*======================background styles of site ======================*/
+
+.bg-primary {
+	background-color:#3498db;
+}
+.bg-info {
+	background-color:#ffff00;	
+}
+.bg-white {
+	background-color:#fff;	
+}
+.bg-grey {
+	background-color:#95a7b2;	
+}
+.bg-black {
+	background-color:#11222d;	
+}
+/*======================form styles of site ======================*/
+label,.label{
+	font-weight:400;
+}
+.form-control {
+	transition:all 0.3s ease-in-out 0.0s;
+	border-radius:9px;
+	font-weight:300;
+	font-size:16px;
+	position:relative;
+	padding:4px 20px;
+	box-shadow:2px 2px 3px rgba(0,0,0,.35);
+	border-color: #b6b6b6;
+}
+.form-control:hover,
+.form-control:focus ,
+.form-control:active {
+	box-shadow: none;
+	border-color: #e0eaf0;
+}
+/*Custom styling end*/
